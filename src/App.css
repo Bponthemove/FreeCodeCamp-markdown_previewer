@@ -1,0 +1,31 @@
+body, html{
+  margin: 0px;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #4f5d75;
+  text-align: center;
+  color: #2d3142;
+}
+
+.container-inner{
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+textarea{
+  text-align: left;
+  margin: 40px;
+  width: 30vw;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#preview{
+  text-align: left;
+  margin: 40px;
+  background-color: #bfc0c0;
+  width: 30vw;
+  border-radius: 10px;
+  padding: 10px;
+}
